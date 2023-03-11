@@ -1,0 +1,50 @@
+.container00{
+    &.container01{
+        background-image: url("/src/imagens/01.jpg");
+    }
+    &.container02{
+        background-image: url("../../imagens/03.jpg");
+    }
+    &.container03{
+        background-image: url("../../imagens/02.gif");
+    }
+    &.container04{
+        background-image: url("../../imagens/04.jpg");
+    }
+
+}
+
+.titlePadding{
+    padding-top: 200px;
+}
+
+.shortTitle{
+    width: 550px;
+    margin-bottom: 30px;
+
+}
+
+.mediumTitle{
+    width: 650px;
+    margin-bottom: 30px;
+}
+
+// media query
+
+@media (max-width:750px){
+    .titlePadding{
+        padding-top: 120px;
+        
+    }
+    .shortTitle,.mediumTitle{
+        width: auto;
+        font-size: 50px;
+    }
+}
+
+@media(max-width:380px){
+    .shortTitle,.mediumTitle{
+        width: auto;
+        font-size: 30px;
+    }
+}

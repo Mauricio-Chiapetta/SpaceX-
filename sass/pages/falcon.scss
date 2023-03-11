@@ -1,0 +1,228 @@
+.container00{
+    &.container05{
+        background-image: url("../../../src/falcon9/001.jpg");
+    }
+    &.container06{
+        background-image: url("../../falcon9/02.jpg");
+    }
+    &.carrossel01{
+        background-image: url("../../falcon9/03.jpg");
+    }
+    &.carrossel02{
+        background-image: url("../../falcon9/04.jpg");
+    }
+    &.carrossel03{
+        background-image: url("../../falcon9/05.jpg");
+    }
+    &.carrossel04{
+        background-image: url("../../falcon9/06.jpg");
+    }
+    &.carrossel05{
+        background-image: url("../../falcon9/07.jpg");
+    }
+    &.container07{
+        background-image: url("../../falcon9/08.jpg");
+    }
+
+}
+
+.titleFalcon{
+    font-size: 100px;
+    font-family: "Rubik",sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+    }
+
+    .numbers{
+        background-color:black;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        .titlenum{
+            font-size: 90px;
+
+        }
+
+        .subtitlenum{
+            font-size:20px ;
+        }
+
+    }
+
+    .Falcon9Desc{
+        font-size: 20px;
+        width: 600px;
+        line-height: 55px;
+    }
+
+    .containerFalcon9Desc{
+
+        display: grid;
+        height: 90vh;
+        align-items: center;
+        justify-content: left;
+
+    }
+
+    #overViewPosition{
+
+        width: 500px;
+        margin-left: 13%;
+        padding-top: 15%;
+    
+    }
+
+
+.carrosselSlide{
+
+        img{
+            height: 100vh;
+        }
+}
+    
+.carousselText{
+  background-color: black;
+
+    
+}
+
+.DownloadDesc{
+
+    background-color: black;
+    height: 90vh;
+    padding-top:240px ;
+
+    a{
+        text-decoration: none;
+    color: $link-hover;
+    
+    &:hover{
+        color: white;
+        border-bottom: 1px solid white;
+        
+    }
+    
+    }
+
+}
+
+.btn{
+
+    padding: $padding-button;
+    border:2px solid white;
+    margin-right: 15px;
+  
+}
+
+// media query
+@media (max-width: 425px) {
+    .titleContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 80vh;
+
+      .titleFalcon9 {
+        font-size: 10px;
+      }
+    }
+
+    .numbers{
+padding-top: 10px;
+        .titlenum {
+        
+            font-size: 20px;
+            
+          
+        
+        }
+
+        .subtitlenum{
+            font-size: 15px;
+        }
+
+
+    }
+    .Falcon9Desc {
+      
+        width: auto;
+        font-size: 18px;
+        line-height: 30px;
+      
+    }
+    #overViewPosition {
+      display: flex;
+      height: 90vh;
+      flex-direction: column;
+      justify-content: center;
+      width: auto;
+      margin-left: auto;
+    }
+    .titleOverView {
+      font-size: 26px;
+      font-weight: bold;
+    }
+    .subTitleOvewView {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
+  
+
+  @media (max-width: 375px) {
+    .titleContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 80vh;
+
+      .titleFalcon9 {
+        font-size: 10px;
+      }
+    }
+
+    .numbers{
+padding-top: 10px;
+        .titlenum {
+        
+            font-size: 20px;
+            
+          
+        
+        }
+
+        .subtitlenum{
+            font-size: 15px;
+        }
+
+
+    }
+    .Falcon9Desc {
+      
+        width: auto;
+        font-size: 18px;
+        line-height: 30px;
+      
+    }
+    #overViewPosition {
+      display: flex;
+      height: 90vh;
+      flex-direction: column;
+      justify-content: center;
+      width: auto;
+      margin-left: auto;
+    }
+    .titleOverView {
+      font-size: 26px;
+      font-weight: bold;
+    }
+    .subTitleOvewView {
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+   
+
+  }

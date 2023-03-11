@@ -1,0 +1,127 @@
+.header {
+    font-size: 11px;
+    font-weight: bold;
+    font-family: "Rubik";
+
+    #navItem {
+
+        margin-top: 5px;
+
+        &:hover {
+            color: $link-hover;
+            transition: 0.3s;
+
+        }
+    }
+
+}
+
+
+.container00 {
+
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.arrowdown {
+    display: inline-block;
+    width: 90px;
+    margin-top: 120px;
+
+}
+
+.logoPc {
+    width: 200px;
+    margin-left: -10px;
+    margin-right: 80px;
+
+}
+
+#button {
+    padding: $padding-button;
+    margin-top: 10px;
+    border: 1px dotted white;
+    transition: 0.4s;
+
+
+}
+
+.footer {
+    background-color: black;
+    height: 10vh;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid transparent;
+
+        &:hover {
+            color: $link-hover;
+            border-bottom: 1px solid rgb(92, 160, 238);
+            transition: 0.3s;
+
+        }
+
+    }
+
+    .copyMC {
+        color: $copy-color;
+    }
+
+
+}
+
+/* ===== Scrollbar CSS ===== */
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #4f94ab #000000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 3px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #226da0;
+    border-radius: 13px;
+    border: 0px solid #000000;
+}
+
+// media query
+
+@media (max-width:450px) {
+
+    .logoPc {
+        width: 180px;
+        margin-top: 15px;
+      
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width:350px) {
+    .logoPc {
+        width: 150px;
+        margin-top: 15px;
+       
+    }
+}

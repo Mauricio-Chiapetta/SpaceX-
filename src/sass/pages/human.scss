@@ -1,0 +1,162 @@
+.container00 {
+    &.container08 {
+        background-image: url("../../human/01.jpg");
+    }
+
+    &.container09 {
+        background-image: url("../../human/02.jpg");
+    }
+
+    &.container10 {
+        background-image: url("../../human/03.jpg");
+    }
+
+    &.container11 {
+        background-image: url("../../human/04.jpg");
+    }
+
+    &.container12 {
+        background-image: url("../../human/05.jpg");
+    }
+
+
+}
+
+.orbita {
+
+    padding-left: 50%;
+    padding-top: 200px;
+
+
+}
+
+.estacao {
+
+    padding-right: 50%;
+    padding-top: 200px;
+
+
+}
+
+.lua {
+
+    padding-left: 50%;
+    padding-top: 200px;
+
+
+}
+
+.marte {
+
+    padding-right: 50%;
+    padding-top: 200px;
+
+}
+
+.contactUs {
+
+    font-size: 20px;
+    padding: 50px;
+    background-color: black;
+
+
+}
+
+
+.titleContent {
+
+    padding-top: 150px;
+}
+
+.titleHuman {
+    font-size: 100px;
+
+}
+
+.subtitleHuman {
+    font-family: "Rubik";
+}
+
+
+
+
+.contactUsdesc {
+
+    width: 60%;
+    margin-left: 250px;
+    color: $link-hover;
+    font-weight: 500;
+    font-family: "Rubik";
+   
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: #1b64e2;
+
+        }
+    }
+
+}
+
+
+.titleOrbita {
+
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+// aqui:
+
+@media (max-width: 425px) {
+    .container01Content {
+      h1 {
+        font-size: 40px;
+      }
+  
+      p {
+        font-size: 16px;
+      }
+    }
+    
+    
+    .arrowDown {
+      display: none;
+    }
+  
+    .eartDesc {
+      height: 30vh;
+      p {
+        color: $table-item-color;
+        font-weight: 400;
+        font-size: 14px;
+        width: auto;
+      }
+    }
+  
+    .containerRightContent {
+      margin-left: 20%;
+      padding-top: 30%;
+    }
+  
+    .titleSection {
+      font-size: 50px;
+      font-weight: bold;
+    }
+  
+    .subTitle {
+      font-weight: 300;
+      margin-bottom: 40px;
+    }
+  
+    .containerLeftContent {
+      margin-left: 7%;
+      padding-top: 30%;
+    }
+  }
+  
+
+

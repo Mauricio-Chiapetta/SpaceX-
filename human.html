@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="clone landing page spaceX" />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="/src/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <!-- lib animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- link css -->
+    <link rel="stylesheet" href="/src/css/index.css" />
+    <!-- icone  -->
+    <link rel="icon" type="image/x-icon" href="/src/imagens/favicon.ico" />
+    <title>SpaceX - humanSpaceFlight</title>
+  </head>
+
+  <body>
+    <!-- CONTAINER 1 -->
+    <div class="container-fluid container00 container08">
+      <div class="container">
+        <header class="header">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-transparent pt-4">
+            <div class="container-fluid">
+              <a href="/index.html">
+                <img
+                  src="/src/imagens/SpaceX-Logo.svg.png"
+                  alt="logo-navbar"
+                  class="logoPc img-fluid"
+                />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="/falcon.html"
+                      id="navItem"
+                      >FALCON 9</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      href="/human.html"
+                      id="navItem"
+                      >HUMAN SPACE FLIGHT</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+
+      <div class="container text-center titleContent" data-aos="fade-down">
+        <p class="h1 titleHuman">HUMAN SPACEFLIGHT</p>
+
+        <p class="h5 subtitleHuman">FAZENDO A VIDA MULTIPLANETÁRIA</p>
+        <div class="container text-center">
+          <img src="/src/imagens/arrowDown.gif" alt="ArrowDown" class="arrowdown" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center contactUs">
+      <p class="contactUsdesc" data-aos="flip-right">
+        SpaceX também oferece voos cormeciais para orbita terrestre e lunar.
+        Para começar a planejar a sua jornada, por favor contate-nos por
+        <a href="">mauriciochiapetta6@gmail.com</a>
+      </p>
+    </div>
+
+    <!-- CONTAINER 3 -->
+    <div class="container-fluid container00 container09">
+      <div
+        class="container orbita"
+        data-aos="fade-right"
+        data-aos-offset="500"
+        data-aos-easing="ease-in-sine"
+      >
+        <p class="subtitleOrbita">MISSAO</p>
+        <p class="h1 titleOrbita">ORBITA DA TERRA</p>
+        <p class="subtitleOrbita">
+          EXPERIMENTE O PLANETA AZUL A 300KM DE ALTURA
+        </p>
+        <button type="button " class="btn btn-outline-light mt-5" id="button">
+          EXPLORAR
+        </button>
+      </div>
+    </div>
+    <div class="container-fluid container00 container10">
+      <div class="container estacao" data-aos="fade-up" data-aos-duration="600">
+        <p class="subtitleOrbita">MISSAO</p>
+        <p class="h1 titleOrbita">ESTAÇÃO ESPACIAL</p>
+        <p class="subtitleOrbita">
+          TRANSPORTANTO HUMANOS PARA O LABORATÓRIO VOADOR NO CÉU
+        </p>
+        <button type="button " class="btn btn-outline-light mt-5" id="button">
+          EXPLORAR
+        </button>
+      </div>
+    </div>
+    <div class="container-fluid container00 container11">
+      <div
+        class="container lua"
+        data-aos="fade-right"
+        data-aos-offset="500"
+        data-aos-easing="ease-in-sine"
+      >
+        <p class="subtitleOrbita">MISSAO</p>
+        <p class="h1 titleOrbita">LUA</p>
+        <p class="subtitleOrbita">
+          RETORNANDO HUMANOS PARA A NOSSA LUA VIZINHA
+        </p>
+        <button type="button " class="btn btn-outline-light mt-5" id="button">
+          EXPLORAR
+        </button>
+      </div>
+    </div>
+    <div class="container-fluid container00 container12">
+      <div
+        class="container marte"
+        data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
+        <p class="subtitleOrbita">MISSAO</p>
+        <p class="h1 titleOrbita">MARTE E ALÉM</p>
+        <p class="subtitleOrbita">
+          O CAMINHO PARA TORNAR A HUMANIDADE MULTIPLANETÁRIA
+        </p>
+        <button type="button " class="btn btn-outline-light mt-5" id="button">
+          EXPLORAR
+        </button>
+      </div>
+    </div>
+
+    <!-- para mais informações -->
+
+    <div class="container-fluid text-center DownloadDesc">
+      <p>
+        Para mais informações entre em contato com
+        <a href="">mauriciochiapetta6@gmail.com</a>
+      </p>
+
+      <button
+        type="button"
+        class="btn btn-outline-light p-3"
+        data-aos="zoom-in"
+      >
+        BAIXAR GUIA DO USUÁRIO
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-light p-3"
+        data-aos="zoom-in"
+      >
+        CAPACIDADES E SERVIÇOS
+      </button>
+    </div>
+
+    <!-- footer -->
+    <footer class="container-fluid footer">
+      <span class="me-4 copyMC">Mauricio Chiapetta &copy; 2022</span>
+      <!-- links para contato -->
+      <a href="https://www.linkedin.com/in/mauricio-chiapetta-ba0b33251/" target="_blank" class="me-4">Linkedin</a>
+      <a href="https://github.com/Mauricio-Chiapetta" target="_blank" class="me-4">GitHub</a>
+      <a href="" target="_blank">Contato</a>
+    </footer>
+
+    <!-- script carrosel/BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- script lib animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
